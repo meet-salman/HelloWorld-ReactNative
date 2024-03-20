@@ -68,7 +68,7 @@ export default function App() {
 
                     <View style={{ display: 'flex', flexDirection: 'row', gap: 5 }}>
                       <TouchableOpacity activeOpacity={1}>
-                        <Text onPress={() => editTodo(i)} style={{ color: '#4061a6' }}> Edit </Text>
+                        <Text style={{ color: '#4061a6' }}> Edit </Text>
                       </TouchableOpacity>
                       <TouchableOpacity activeOpacity={1}>
                         <Text onPress={() => deleteTodo(i)} style={{ color: '#a64040' }}> Delete </Text>
